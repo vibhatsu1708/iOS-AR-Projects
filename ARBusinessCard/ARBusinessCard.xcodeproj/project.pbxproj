@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1451E8A12B6A75F500EC0DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451E8A02B6A75F500EC0DB7 /* AppDelegate.swift */; };
+		1451E8A32B6A75F500EC0DB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451E8A22B6A75F500EC0DB7 /* ContentView.swift */; };
+		1451E8A52B6A75F700EC0DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1451E8A42B6A75F700EC0DB7 /* Assets.xcassets */; };
+		1451E8A82B6A75F700EC0DB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1451E8A72B6A75F700EC0DB7 /* Preview Assets.xcassets */; };
+		1451E8B22B6A75F700EC0DB7 /* ARBusinessCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451E8B12B6A75F700EC0DB7 /* ARBusinessCardTests.swift */; };
+		1451E8BC2B6A75F700EC0DB7 /* ARBusinessCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451E8BB2B6A75F700EC0DB7 /* ARBusinessCardUITests.swift */; };
+		1451E8BE2B6A75F700EC0DB7 /* ARBusinessCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451E8BD2B6A75F700EC0DB7 /* ARBusinessCardUITestsLaunchTests.swift */; };
+		1451E8CE2B6A81FE00EC0DB7 /* pancakes.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1451E8CA2B6A81FD00EC0DB7 /* pancakes.usdz */; };
+		1451E8CF2B6A81FE00EC0DB7 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1451E8CB2B6A81FD00EC0DB7 /* cup_saucer_set.usdz */; };
+		1451E8D02B6A81FE00EC0DB7 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1451E8CC2B6A81FD00EC0DB7 /* chair_swan.usdz */; };
+		1451E8D12B6A81FE00EC0DB7 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1451E8CD2B6A81FE00EC0DB7 /* tv_retro.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1451E8AE2B6A75F700EC0DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1451E8952B6A75F500EC0DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1451E89C2B6A75F500EC0DB7;
+			remoteInfo = ARBusinessCard;
+		};
+		1451E8B82B6A75F700EC0DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1451E8952B6A75F500EC0DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1451E89C2B6A75F500EC0DB7;
+			remoteInfo = ARBusinessCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1451E89D2B6A75F500EC0DB7 /* ARBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1451E8A02B6A75F500EC0DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1451E8A22B6A75F500EC0DB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1451E8A42B6A75F700EC0DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1451E8A72B6A75F700EC0DB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1451E8AD2B6A75F700EC0DB7 /* ARBusinessCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARBusinessCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1451E8B12B6A75F700EC0DB7 /* ARBusinessCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBusinessCardTests.swift; sourceTree = "<group>"; };
+		1451E8B72B6A75F700EC0DB7 /* ARBusinessCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARBusinessCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1451E8BB2B6A75F700EC0DB7 /* ARBusinessCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBusinessCardUITests.swift; sourceTree = "<group>"; };
+		1451E8BD2B6A75F700EC0DB7 /* ARBusinessCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBusinessCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1451E8CA2B6A81FD00EC0DB7 /* pancakes.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pancakes.usdz; sourceTree = "<group>"; };
+		1451E8CB2B6A81FD00EC0DB7 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		1451E8CC2B6A81FD00EC0DB7 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		1451E8CD2B6A81FE00EC0DB7 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1451E89A2B6A75F500EC0DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451E8AA2B6A75F700EC0DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451E8B42B6A75F700EC0DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1451E8942B6A75F500EC0DB7 = {
+			isa = PBXGroup;
+			children = (
+				1451E89F2B6A75F500EC0DB7 /* ARBusinessCard */,
+				1451E8B02B6A75F700EC0DB7 /* ARBusinessCardTests */,
+				1451E8BA2B6A75F700EC0DB7 /* ARBusinessCardUITests */,
+				1451E89E2B6A75F500EC0DB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1451E89E2B6A75F500EC0DB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1451E89D2B6A75F500EC0DB7 /* ARBusinessCard.app */,
+				1451E8AD2B6A75F700EC0DB7 /* ARBusinessCardTests.xctest */,
+				1451E8B72B6A75F700EC0DB7 /* ARBusinessCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1451E89F2B6A75F500EC0DB7 /* ARBusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				1451E8A02B6A75F500EC0DB7 /* AppDelegate.swift */,
+				1451E8A22B6A75F500EC0DB7 /* ContentView.swift */,
+				1451E8A42B6A75F700EC0DB7 /* Assets.xcassets */,
+				1451E8D22B6A820800EC0DB7 /* Assets */,
+				1451E8A62B6A75F700EC0DB7 /* Preview Content */,
+			);
+			path = ARBusinessCard;
+			sourceTree = "<group>";
+		};
+		1451E8A62B6A75F700EC0DB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1451E8A72B6A75F700EC0DB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1451E8B02B6A75F700EC0DB7 /* ARBusinessCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1451E8B12B6A75F700EC0DB7 /* ARBusinessCardTests.swift */,
+			);
+			path = ARBusinessCardTests;
+			sourceTree = "<group>";
+		};
+		1451E8BA2B6A75F700EC0DB7 /* ARBusinessCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1451E8BB2B6A75F700EC0DB7 /* ARBusinessCardUITests.swift */,
+				1451E8BD2B6A75F700EC0DB7 /* ARBusinessCardUITestsLaunchTests.swift */,
+			);
+			path = ARBusinessCardUITests;
+			sourceTree = "<group>";
+		};
+		1451E8D22B6A820800EC0DB7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1451E8CC2B6A81FD00EC0DB7 /* chair_swan.usdz */,
+				1451E8CB2B6A81FD00EC0DB7 /* cup_saucer_set.usdz */,
+				1451E8CA2B6A81FD00EC0DB7 /* pancakes.usdz */,
+				1451E8CD2B6A81FE00EC0DB7 /* tv_retro.usdz */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1451E89C2B6A75F500EC0DB7 /* ARBusinessCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1451E8C12B6A75F700EC0DB7 /* Build configuration list for PBXNativeTarget "ARBusinessCard" */;
+			buildPhases = (
+				1451E8992B6A75F500EC0DB7 /* Sources */,
+				1451E89A2B6A75F500EC0DB7 /* Frameworks */,
+				1451E89B2B6A75F500EC0DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARBusinessCard;
+			productName = ARBusinessCard;
+			productReference = 1451E89D2B6A75F500EC0DB7 /* ARBusinessCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1451E8AC2B6A75F700EC0DB7 /* ARBusinessCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1451E8C42B6A75F700EC0DB7 /* Build configuration list for PBXNativeTarget "ARBusinessCardTests" */;
+			buildPhases = (
+				1451E8A92B6A75F700EC0DB7 /* Sources */,
+				1451E8AA2B6A75F700EC0DB7 /* Frameworks */,
+				1451E8AB2B6A75F700EC0DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1451E8AF2B6A75F700EC0DB7 /* PBXTargetDependency */,
+			);
+			name = ARBusinessCardTests;
+			productName = ARBusinessCardTests;
+			productReference = 1451E8AD2B6A75F700EC0DB7 /* ARBusinessCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1451E8B62B6A75F700EC0DB7 /* ARBusinessCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1451E8C72B6A75F700EC0DB7 /* Build configuration list for PBXNativeTarget "ARBusinessCardUITests" */;
+			buildPhases = (
+				1451E8B32B6A75F700EC0DB7 /* Sources */,
+				1451E8B42B6A75F700EC0DB7 /* Frameworks */,
+				1451E8B52B6A75F700EC0DB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1451E8B92B6A75F700EC0DB7 /* PBXTargetDependency */,
+			);
+			name = ARBusinessCardUITests;
+			productName = ARBusinessCardUITests;
+			productReference = 1451E8B72B6A75F700EC0DB7 /* ARBusinessCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1451E8952B6A75F500EC0DB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1451E89C2B6A75F500EC0DB7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1451E8AC2B6A75F700EC0DB7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1451E89C2B6A75F500EC0DB7;
+					};
+					1451E8B62B6A75F700EC0DB7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1451E89C2B6A75F500EC0DB7;
+					};
+				};
+			};
+			buildConfigurationList = 1451E8982B6A75F500EC0DB7 /* Build configuration list for PBXProject "ARBusinessCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1451E8942B6A75F500EC0DB7;
+			productRefGroup = 1451E89E2B6A75F500EC0DB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1451E89C2B6A75F500EC0DB7 /* ARBusinessCard */,
+				1451E8AC2B6A75F700EC0DB7 /* ARBusinessCardTests */,
+				1451E8B62B6A75F700EC0DB7 /* ARBusinessCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1451E89B2B6A75F500EC0DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1451E8D12B6A81FE00EC0DB7 /* tv_retro.usdz in Resources */,
+				1451E8CF2B6A81FE00EC0DB7 /* cup_saucer_set.usdz in Resources */,
+				1451E8CE2B6A81FE00EC0DB7 /* pancakes.usdz in Resources */,
+				1451E8A82B6A75F700EC0DB7 /* Preview Assets.xcassets in Resources */,
+				1451E8D02B6A81FE00EC0DB7 /* chair_swan.usdz in Resources */,
+				1451E8A52B6A75F700EC0DB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451E8AB2B6A75F700EC0DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451E8B52B6A75F700EC0DB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1451E8992B6A75F500EC0DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1451E8A32B6A75F500EC0DB7 /* ContentView.swift in Sources */,
+				1451E8A12B6A75F500EC0DB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451E8A92B6A75F700EC0DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1451E8B22B6A75F700EC0DB7 /* ARBusinessCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1451E8B32B6A75F700EC0DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1451E8BC2B6A75F700EC0DB7 /* ARBusinessCardUITests.swift in Sources */,
+				1451E8BE2B6A75F700EC0DB7 /* ARBusinessCardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1451E8AF2B6A75F700EC0DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1451E89C2B6A75F500EC0DB7 /* ARBusinessCard */;
+			targetProxy = 1451E8AE2B6A75F700EC0DB7 /* PBXContainerItemProxy */;
+		};
+		1451E8B92B6A75F700EC0DB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1451E89C2B6A75F500EC0DB7 /* ARBusinessCard */;
+			targetProxy = 1451E8B82B6A75F700EC0DB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1451E8BF2B6A75F700EC0DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1451E8C02B6A75F700EC0DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1451E8C22B6A75F700EC0DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARBusinessCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.ARBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1451E8C32B6A75F700EC0DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARBusinessCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.ARBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1451E8C52B6A75F700EC0DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.ARBusinessCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARBusinessCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARBusinessCard";
+			};
+			name = Debug;
+		};
+		1451E8C62B6A75F700EC0DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.ARBusinessCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARBusinessCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARBusinessCard";
+			};
+			name = Release;
+		};
+		1451E8C82B6A75F700EC0DB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.ARBusinessCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARBusinessCard;
+			};
+			name = Debug;
+		};
+		1451E8C92B6A75F700EC0DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.ARBusinessCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARBusinessCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1451E8982B6A75F500EC0DB7 /* Build configuration list for PBXProject "ARBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1451E8BF2B6A75F700EC0DB7 /* Debug */,
+				1451E8C02B6A75F700EC0DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1451E8C12B6A75F700EC0DB7 /* Build configuration list for PBXNativeTarget "ARBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1451E8C22B6A75F700EC0DB7 /* Debug */,
+				1451E8C32B6A75F700EC0DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1451E8C42B6A75F700EC0DB7 /* Build configuration list for PBXNativeTarget "ARBusinessCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1451E8C52B6A75F700EC0DB7 /* Debug */,
+				1451E8C62B6A75F700EC0DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1451E8C72B6A75F700EC0DB7 /* Build configuration list for PBXNativeTarget "ARBusinessCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1451E8C82B6A75F700EC0DB7 /* Debug */,
+				1451E8C92B6A75F700EC0DB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1451E8952B6A75F500EC0DB7 /* Project object */;
+}
