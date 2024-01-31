@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "book-cover-1.arreferenceimage"
+    },
+    {
+      "filename" : "mickey-image.arreferenceimage"
+    },
+    {
+      "filename" : "spiderman-image.arreferenceimage"
+    }
+  ]
+}
